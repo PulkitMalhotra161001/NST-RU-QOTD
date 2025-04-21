@@ -1,3 +1,6 @@
+https://my.newtonschool.co/playground/code/gabl1jxposcp
+
+
 MAXN = 1000000
 spf = [1] * (MAXN + 1)
 
