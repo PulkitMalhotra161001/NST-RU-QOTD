@@ -18,11 +18,3 @@ def all_subsequences(s):
     generate_subsequences(s, 0, '', subsequences)
     subsequences.sort()  # Sort lexicographically
     return subsequences
-
-# Input string
-s = input()
-
-# Get all subsequences and print them
-subsequences = all_subsequences(s)
-for subsequence in subsequences:
-    print(subsequence,end=" ")
